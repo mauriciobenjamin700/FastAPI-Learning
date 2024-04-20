@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-learning"
+version = "0.1.0"
+description = "Estudando FastAPI"
+authors = ["Mauricio Benjamin da Rocha"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
