@@ -76,4 +76,14 @@ Visando formatar as colunas através de boas praticas, alteramos as colunas do d
 Se o banco de dados não está criado ainda, execute os arquivos recomendados a baixo
 
 - Para criar o banco de dados execute o arquivo [create_database.py](src/modules/database/create_database.py)
-- Para carregador os dados execute o arquivo [load_dataset.py](src/modules/database/load_dataset.py)
+- Para carregador os dados execute o arquivo [load_dataset.py]
+- (src/modules/database/load_dataset.py)
+
+### Interfaces de Consulta para os Dados
+
+Para manipular os dados iremos disponibilzar as seguintes funções:
+
+    - get_database()
+    - search_item(item_name)
+    - delete_item(item_id)
+    - add_item(name, description, gender, country, occupation, birth, death, cause_death, age_death)
