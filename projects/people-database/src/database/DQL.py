@@ -10,9 +10,9 @@ def get_all_registers(table: str = "Historical_character") -> str:
     return query
 
 
-def get_registers(name: str, table: str = "Historical_character") -> str:
+def get_registers(target_name: str, table: str = "Historical_character") -> str:
 
-    query = f"SELECT * FROM {table} WHERE name = '{name}'"
+    query = f"SELECT * FROM {table} WHERE name = '{target_name}'"
 
     return query
 

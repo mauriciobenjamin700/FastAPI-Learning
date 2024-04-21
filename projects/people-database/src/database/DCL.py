@@ -43,7 +43,7 @@ class DataBase:
         result = None
 
         if len(values) == 0:
-            result = self.cursor.execute(query)
+            result = self.cursor.execute(query).fetchall()
         else:
             self.cursor.execute(query, values)
             self.conn.commit()

@@ -13,25 +13,6 @@ from DQL import *
 from DDL import *
 
 
-def get_database(result: Cursor):
-    """
-    Retorna uma lista de tuplas, onde cada tupla é um registro do banco de dados
-    """
-    return result.fetchall()
-
-
-def search_item(cursor: Cursor):
-    """"""
-
-    result = cursor.fetchall()
-
-    return result
-
-
-def delete_item(column: str, value: int | str, table: str = "Historical_character"):
-    query = delet_register(column, value, table)
-
-
 def add_item(
     name: str,
     description: str,

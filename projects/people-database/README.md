@@ -85,5 +85,5 @@ Para manipular os dados iremos disponibilzar as seguintes funções:
 
     - get_database()
     - search_item(item_name)
-    - delete_item(item_id)
+    - delete_item(item_name)
     - add_item(name, description, gender, country, occupation, birth, death, cause_death, age_death)
