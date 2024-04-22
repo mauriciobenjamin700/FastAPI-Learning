@@ -38,7 +38,7 @@ class DataBase:
 
         return self.isconnet
 
-    def execute(self, query: str, values: tuple = ()) -> None | Cursor:
+    def execute(self, query: str, values: tuple = ()) -> None | list:
 
         result = None
 
